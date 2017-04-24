@@ -1,7 +1,7 @@
 # GettingAndCleaningDataCourseraProject
 ### Dan Jeffrey
 
-## Steps performed by the script, run_Analysis.R:
+## Steps performed by the script, [run_Analysis.R](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/run_analysis.R):
 
 First, load the needed libraries: data.table, dplyr
 
