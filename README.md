@@ -1,6 +1,10 @@
 # GettingAndCleaningDataCourseraProject
 ### Dan Jeffrey
 
+## Other documents:
+* [Code book](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/CodeBook.md)
+* [R script](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/run_analysis.R):
+
 ## Steps performed by the script, [run_Analysis.R](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/run_analysis.R):
 
 First, load the needed libraries: data.table, dplyr
