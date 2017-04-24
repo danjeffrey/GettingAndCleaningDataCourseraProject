@@ -3,7 +3,8 @@
 
 ## Other documents:
 * [Code book](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/CodeBook.md)
-* [R script](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/run_analysis.R):
+* [R script](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/run_analysis.R)
+* [Results](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/tidySummary.txt)
 
 ## Steps performed by the script, [run_Analysis.R](https://github.com/danjeffrey/GettingAndCleaningDataCourseraProject/blob/master/run_analysis.R):
 
