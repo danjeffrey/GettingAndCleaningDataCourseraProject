@@ -60,18 +60,18 @@ data -- calculated for each activity/subject pair:
 | activity.name | none | descriptive name of the activity 
 | subject | none | which lab subject performed the activity (values = 1-30)
 | activity.code | none |code for the activity (values = 1-6) | 
-| tBodyAcc-mean()-X | g | |
-| tBodyAcc-mean()-Y | g | |
-| tBodyAcc-mean()-Z | g | |
-| tBodyAcc-std()-X | g | |
-| tBodyAcc-std()-Y | g | |
-| tBodyAcc-std()-Z | g | |
-| tGravityAcc-mean()-X | g | |
-| tGravityAcc-mean()-Y | g | |
-| tGravityAcc-mean()-Z | g | |
-| tGravityAcc-std()-X | g | |
-| tGravityAcc-std()-Y | g | |
-| tGravityAcc-std()-Z      | g | |
+| tBodyAcc-mean()-X | g | average of mean body linear acceleration on x-axis |
+| tBodyAcc-mean()-Y | g | average of mean body linear acceleration on y-axis |
+| tBodyAcc-mean()-Z | g | average of mean body linear acceleration on z-axis |
+| tBodyAcc-std()-X | g | average of std deviation of body linear acceleration on x-axis |
+| tBodyAcc-std()-Z | g | average of std deviation of body linear acceleration on z-axis |
+| tBodyAcc-std()-Y | g | average of std deviation of body linear acceleration on y-axis |
+| tGravityAcc-mean()-X | g | average of mean gravity acceleration on x axis |
+| tGravityAcc-mean()-Y | g | average of mean gravity acceleration on y axis |
+| tGravityAcc-mean()-Z | g | average of mean gravity acceleration on z axis |
+| tGravityAcc-std()-X | g | average of standard deviation for gravity acceleration on x axis |
+| tGravityAcc-std()-Y | g | average of standard deviation for gravity acceleration on y axis |
+| tGravityAcc-std()-Z      | g | average of standard deviation for gravity acceleration on z axis |
 | tBodyAccJerk-mean()-X | g | |
 | tBodyAccJerk-mean()-Y | g | |
 | tBodyAccJerk-mean()-Z | g | |
