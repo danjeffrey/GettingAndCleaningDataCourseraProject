@@ -63,9 +63,9 @@ data -- calculated for each activity/subject pair:
 | tBodyAcc-mean()-X | g | average of mean body linear acceleration on x-axis |
 | tBodyAcc-mean()-Y | g | average of mean body linear acceleration on y-axis |
 | tBodyAcc-mean()-Z | g | average of mean body linear acceleration on z-axis |
-| tBodyAcc-std()-X | g | average of std deviation of body linear acceleration on x-axis |
-| tBodyAcc-std()-Z | g | average of std deviation of body linear acceleration on z-axis |
-| tBodyAcc-std()-Y | g | average of std deviation of body linear acceleration on y-axis |
+| tBodyAcc-std()-X | g |  average of std deviation of body linear acceleration on x-axis |
+| tBodyAcc-std()-Z | g |  average of std deviation of body linear acceleration on z-axis |
+| tBodyAcc-std()-Y | g |  average of std deviation of body linear acceleration on y-axis |
 | tGravityAcc-mean()-X | g | average of mean gravity acceleration on x axis |
 | tGravityAcc-mean()-Y | g | average of mean gravity acceleration on y axis |
 | tGravityAcc-mean()-Z | g | average of mean gravity acceleration on z axis |
@@ -75,57 +75,57 @@ data -- calculated for each activity/subject pair:
 | tBodyAccJerk-mean()-X | g | average of mean for jerk body acceleration on x axis |
 | tBodyAccJerk-mean()-Y | g | average of mean  for jerk body acceleration on y axis |
 | tBodyAccJerk-mean()-Z | g | average of mean  for jerk body acceleration on z axis |
-| tBodyAccJerk-std()-X | g | average of standard deviation for jerk body acceleration on x axis |
-| tBodyAccJerk-std()-Y | g | average of standard deviation for jerk body acceleration on y axis |
-| tBodyAccJerk-std()-Z | g | average of standard deviation for jerk body acceleration on z axis |
+| tBodyAccJerk-std()-X | g |  average of standard deviation for jerk body acceleration on x axis |
+| tBodyAccJerk-std()-Y | g |  average of standard deviation for jerk body acceleration on y axis |
+| tBodyAccJerk-std()-Z | g |  average of standard deviation for jerk body acceleration on z axis |
 | tBodyGyro-mean()-X | radians/second | average of mean for body gyro angular velocity on x axis |
 | tBodyGyro-mean()-Y | radians/second | average of mean for body gyro angular velocity on y axis |
 | tBodyGyro-mean()-Z | radians/second | average of mean for body gyro angular velocity on z axis |
-| tBodyGyro-std()-X | radians/second | average of standard deviation for body gyro angular velocity on x axis |
-| tBodyGyro-std()-Y | radians/second | average of standard deviation for body gyro angular velocity on y axis |
-| tBodyGyro-std()-Z | radians/second | average of standard deviation for body gyro angular velocity on z axis |
+| tBodyGyro-std()-X |  radians/second | average of standard deviation for body gyro angular velocity on x axis |
+| tBodyGyro-std()-Y |  radians/second | average of standard deviation for body gyro angular velocity on y axis |
+| tBodyGyro-std()-Z |  radians/second | average of standard deviation for body gyro angular velocity on z axis |
 | tBodyGyroJerk-mean()-X | radians/second | average of mean for body gyro jerk angular velocity on x axis |
 | tBodyGyroJerk-mean()-Y | radians/second | average of mean for body gyro jerk angular velocity on y axis |
 | tBodyGyroJerk-mean()-Z | radians/second | average of mean for body gyro jerk angular velocity on z axis |
 | tBodyGyroJerk-std()-X | radians/second | average of standard deviation for body gyro jerk angular velocity on x axis |
 | tBodyGyroJerk-std()-Y | radians/second | average of standard deviation for body gyro jerk angular velocity on y axis |
 | tBodyGyroJerk-std()-Z | radians/second | average of standard deviation for body gyro jerk angular velocity on z axis |
-| tBodyAccMag-mean() | g | average of mean magnitude of 3D body acceleration signals |
-| tBodyAccMag-std() | g  | average of standard deviation of magnitude of 3D body acceleration signals |
-| tGravityAccMag-mean() | g | average of mean magnitude of 3D gravity acceleration signals | 
-| tGravityAccMag-std() | g |  average of standard deviation of magnitude of 3D gravity acceleration signals |
+| tBodyAccMag-mean() | g |     average of mean magnitude of 3D body acceleration signals |
+| tBodyAccMag-std() | g  |     average of standard deviation of magnitude of 3D body acceleration signals |
+| tGravityAccMag-mean() | g |  average of mean magnitude of 3D gravity acceleration signals | 
+| tGravityAccMag-std() | g |   average of standard deviation of magnitude of 3D gravity acceleration signals |
 | tBodyAccJerkMag-mean() | g | average of mean magnitude of 3D jerk acceleration signals |
 | tBodyAccJerkMag-std() | g |  average of standard deviation of magnitude of 3D jerk acceleration signals |
 | tBodyGyroMag-mean() | radians/second | average of mean magnitude of 3D body angular velocity |
 | tBodyGyroMag-std() | radians/second |  average of standard deviation of magnitude of 3D body angular velocity |
 | tBodyGyroJerkMag-mean() | radians/second |  average of mean magnitude of 3D jerk angular velocity |
 | tBodyGyroJerkMag-std() | radians/second |   average of standard deviation of magnitude of 3D jerk angular velocity |
-| fBodyAcc-mean()-X | g | |
-| fBodyAcc-mean()-Y | g | | 
-| fBodyAcc-mean()-Z | g | |
-| fBodyAcc-std()-X | g | |
-| fBodyAcc-std()-Y | g | |
-| fBodyAcc-std()-Z | g | |
-| fBodyAccJerk-mean()-X | g | |
-| fBodyAccJerk-mean()-Y | g | |
-| fBodyAccJerk-mean()-Z | g | |
-| fBodyAccJerk-std()-X | g | |
-| fBodyAccJerk-std()-Y | g | |
-| fBodyAccJerk-std()-Z | g | |
-| fBodyGyro-mean()-X | radians/second | |
-| fBodyGyro-mean()-Y | radians/second | |
-| fBodyGyro-mean()-Z | radians/second | |
-| fBodyGyro-std()-X | radians/second | |
-| fBodyGyro-std()-Y | radians/second | |
-| fBodyGyro-std()-Z | radians/second | |
-| fBodyAccMag-mean() | g | |
-| fBodyAccMag-std()  | g | |
-| fBodyBodyAccJerkMag-mean() | g | |
-| fBodyBodyAccJerkMag-std() | g | |
-| fBodyBodyGyroMag-mean() | radians/second | |
-| fBodyBodyGyroMag-std() | radians/second | |
-| fBodyBodyGyroJerkMag-mean() | radians/second | |
-| fBodyBodyGyroJerkMag-std() | radians/second | |
+| fBodyAcc-mean()-X | g |  average of mean FFT of body linear acceleration on x-axis |
+| fBodyAcc-mean()-Y | g |  average of mean FFT of body linear acceleration on y-axis | 
+| fBodyAcc-mean()-Z | g |  average of mean FFT of body linear acceleration on z-axis |
+| fBodyAcc-std()-X | g |   average of std deviation of FFT of body linear acceleration on x-axis |
+| fBodyAcc-std()-Y | g |   average of std deviation of FFT of body linear acceleration on z-axis |
+| fBodyAcc-std()-Z | g |   average of std deviation of FFT of body linear acceleration on y-axis |
+| fBodyAccJerk-mean()-X | g | average of mean FFT for jerk body acceleration on x axis |
+| fBodyAccJerk-mean()-Y | g | average of mean FFT for jerk body acceleration on y axis |
+| fBodyAccJerk-mean()-Z | g | average of mean FFT for jerk body acceleration on z axis |
+| fBodyAccJerk-std()-X | g |  average of standard deviation of FFT for jerk body acceleration on x axis |
+| fBodyAccJerk-std()-Y | g |  average of standard deviation of FFT for jerk body acceleration on y axis |
+| fBodyAccJerk-std()-Z | g |  average of standard deviation of FFT for jerk body acceleration on z axis |
+| fBodyGyro-mean()-X | radians/second | average of mean FFT for body gyro angular velocity on x axis |
+| fBodyGyro-mean()-Y | radians/second | average of mean FFT for body gyro angular velocity on y axis |
+| fBodyGyro-mean()-Z | radians/second | average of mean FFT for body gyro angular velocity on z axis |
+| fBodyGyro-std()-X | radians/second |  average of standard deviation of FFT for body gyro angular velocity on x axis |
+| fBodyGyro-std()-Y | radians/second |  average of standard deviation of FFT for body gyro angular velocity on y axis |
+| fBodyGyro-std()-Z | radians/second |  average of standard deviation of FFT for body gyro angular velocity on z axis |
+| fBodyAccMag-mean() | g |                   average of mean FFT of magnitude of 3D body acceleration signals |
+| fBodyAccMag-std()  | g |                   average of standard deviation of FFT of magnitude of 3D body acceleration signals |
+| fBodyBodyAccJerkMag-mean() | g |           average of mean magnitude of FFT of 3D gravity acceleration signals | 
+| fBodyBodyAccJerkMag-std() | g |            average of standard deviation of FFT of magnitude of 3D gravity acceleration signals |
+| fBodyBodyGyroMag-mean() | radians/second | average of mean magnitude of FFT of 3D jerk acceleration signals |
+| fBodyBodyGyroMag-std() | radians/second |  average of standard deviation of FFT of magnitude of 3D jerk acceleration signals |
+| fBodyBodyGyroJerkMag-mean() | radians/second | average of mean magnitude of FFT of 3D jerk acceleration signals |
+| fBodyBodyGyroJerkMag-std() | radians/second | average of standard deviation of FFT of magnitude of 3D jerk acceleration signals |
 
 
 
