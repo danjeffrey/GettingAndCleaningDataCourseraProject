@@ -1,4 +1,4 @@
-# Code Book
+# Data Description
 ## Dan Jeffrey's Homework for Coursera 
 
 The features selected for this database come from the accelerometer and gyroscope 
@@ -54,6 +54,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 The fields are means of all of the values in the original raw 
 data -- calculated for each activity/subject pair:
 
+## Codebook
 | column name | units | description |
 |-------------|-------|-------------|
 | activity.name | none | descriptive name of the activity 
