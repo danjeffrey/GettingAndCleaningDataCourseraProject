@@ -72,34 +72,34 @@ data -- calculated for each activity/subject pair:
 | tGravityAcc-std()-X | g | average of standard deviation for gravity acceleration on x axis |
 | tGravityAcc-std()-Y | g | average of standard deviation for gravity acceleration on y axis |
 | tGravityAcc-std()-Z      | g | average of standard deviation for gravity acceleration on z axis |
-| tBodyAccJerk-mean()-X | g | |
-| tBodyAccJerk-mean()-Y | g | |
-| tBodyAccJerk-mean()-Z | g | |
-| tBodyAccJerk-std()-X | g | |
-| tBodyAccJerk-std()-Y | g | |
-| tBodyAccJerk-std()-Z | g | |
-| tBodyGyro-mean()-X | radians/second | |
-| tBodyGyro-mean()-Y | radians/second | |
-| tBodyGyro-mean()-Z | radians/second | |
-| tBodyGyro-std()-X | radians/second | |
-| tBodyGyro-std()-Y | radians/second | |
-| tBodyGyro-std()-Z | radians/second | |
-| tBodyGyroJerk-mean()-X | radians/second | |
-| tBodyGyroJerk-mean()-Y | radians/second | |
-| tBodyGyroJerk-mean()-Z | radians/second | |
-| tBodyGyroJerk-std()-X | radians/second | |
-| tBodyGyroJerk-std()-Y | radians/second | |
-| tBodyGyroJerk-std()-Z | radians/second | |
-| tBodyAccMag-mean() | g | |
-| tBodyAccMag-std() | g | |
-| tGravityAccMag-mean() | g | |
-| tGravityAccMag-std() | g | |
-| tBodyAccJerkMag-mean() | g | |
-| tBodyAccJerkMag-std() | g | |
-| tBodyGyroMag-mean() | radians/second | |
-| tBodyGyroMag-std() | radians/second | |
-| tBodyGyroJerkMag-mean() | radians/second | |
-| tBodyGyroJerkMag-std() | radians/second | |
+| tBodyAccJerk-mean()-X | g | average of mean for jerk body acceleration on x axis |
+| tBodyAccJerk-mean()-Y | g | average of mean  for jerk body acceleration on y axis |
+| tBodyAccJerk-mean()-Z | g | average of mean  for jerk body acceleration on z axis |
+| tBodyAccJerk-std()-X | g | average of standard deviation for jerk body acceleration on x axis |
+| tBodyAccJerk-std()-Y | g | average of standard deviation for jerk body acceleration on y axis |
+| tBodyAccJerk-std()-Z | g | average of standard deviation for jerk body acceleration on z axis |
+| tBodyGyro-mean()-X | radians/second | average of mean for body gyro angular velocity on x axis |
+| tBodyGyro-mean()-Y | radians/second | average of mean for body gyro angular velocity on y axis |
+| tBodyGyro-mean()-Z | radians/second | average of mean for body gyro angular velocity on z axis |
+| tBodyGyro-std()-X | radians/second | average of standard deviation for body gyro angular velocity on x axis |
+| tBodyGyro-std()-Y | radians/second | average of standard deviation for body gyro angular velocity on y axis |
+| tBodyGyro-std()-Z | radians/second | average of standard deviation for body gyro angular velocity on z axis |
+| tBodyGyroJerk-mean()-X | radians/second | average of mean for body gyro jerk angular velocity on x axis |
+| tBodyGyroJerk-mean()-Y | radians/second | average of mean for body gyro jerk angular velocity on y axis |
+| tBodyGyroJerk-mean()-Z | radians/second | average of mean for body gyro jerk angular velocity on z axis |
+| tBodyGyroJerk-std()-X | radians/second | average of standard deviation for body gyro jerk angular velocity on x axis |
+| tBodyGyroJerk-std()-Y | radians/second | average of standard deviation for body gyro jerk angular velocity on y axis |
+| tBodyGyroJerk-std()-Z | radians/second | average of standard deviation for body gyro jerk angular velocity on z axis |
+| tBodyAccMag-mean() | g | average of mean magnitude of 3D body acceleration signals |
+| tBodyAccMag-std() | g  | average of standard deviation of magnitude of 3D body acceleration signals |
+| tGravityAccMag-mean() | g | average of mean magnitude of 3D gravity acceleration signals | 
+| tGravityAccMag-std() | g |  average of standard deviation of magnitude of 3D gravity acceleration signals |
+| tBodyAccJerkMag-mean() | g | average of mean magnitude of 3D jerk acceleration signals |
+| tBodyAccJerkMag-std() | g |  average of standard deviation of magnitude of 3D jerk acceleration signals |
+| tBodyGyroMag-mean() | radians/second | average of mean magnitude of 3D body angular velocity |
+| tBodyGyroMag-std() | radians/second |  average of standard deviation of magnitude of 3D body angular velocity |
+| tBodyGyroJerkMag-mean() | radians/second |  average of mean magnitude of 3D jerk angular velocity |
+| tBodyGyroJerkMag-std() | radians/second |   average of standard deviation of magnitude of 3D jerk angular velocity |
 | fBodyAcc-mean()-X | g | |
 | fBodyAcc-mean()-Y | g | | 
 | fBodyAcc-mean()-Z | g | |
